@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "266045142083",
+    "firebase_url": "https://thein-cloud-android.firebaseio.com",
+    "project_id": "thein-cloud-android",
+    "storage_bucket": "thein-cloud-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266045142083:android:1d4722bde23fe034",
+        "android_client_info": {
+          "package_name": "com.globaldroid.app.myfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266045142083-u2fi2lvf7n17iv2i9cq4pd5mhv25r0u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globaldroid.app.myfirebase",
+            "certificate_hash": "76faed280b4f01e67bb546bcaf0b20f162fa99fe"
+          }
+        },
+        {
+          "client_id": "266045142083-ohpmjnjsl0q4co04sr5ohc5jkb1ltjio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2xemzkHhIBw7lUUqVa_vGS0wdMUenw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266045142083-ohpmjnjsl0q4co04sr5ohc5jkb1ltjio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

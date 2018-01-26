@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFireBase</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_status">ShowStatus</string>
+</resources>
