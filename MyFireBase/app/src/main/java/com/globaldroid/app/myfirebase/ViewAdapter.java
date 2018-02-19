@@ -41,7 +41,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
         StatusData statusData = statusFeed.get(position);
 
-        holder.tvstatus.setText(statusData.getMystatus());
+        holder.tvstatus.setText(statusData.mystatus);
 
 
 

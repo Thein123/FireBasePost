@@ -23,6 +23,10 @@
         <activity
             android:name=".ShowStatus"
             android:label="@string/title_activity_show_status"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

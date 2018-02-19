@@ -56,13 +56,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                StatusData statusData = new StatusData();
+
 
                 GetDataFromEditText();
+                StatusData statusData = new StatusData(statusString);
 
                 // Adding status text into class function object.
-                statusData.setMystatus(statusString);
-
 
 
                 // Getting the ID from firebase database.

@@ -7,18 +7,23 @@ public class StatusData {
 
 
 
-    private String mystatus;
+    public String mystatus;
 
 
     public StatusData() {
 
     }
+    public StatusData(String status){
 
-    public String getMystatus() {
-        return mystatus;
+        this.mystatus=status;
+
     }
 
-    public void setMystatus(String mystatus) {
-        this.mystatus = mystatus;
-    }
+//    public String getMystatus() {
+//        return mystatus;
+//    }
+//
+//    public void setMystatus(String mystatus) {
+//        this.mystatus = mystatus;
+//    }
 }

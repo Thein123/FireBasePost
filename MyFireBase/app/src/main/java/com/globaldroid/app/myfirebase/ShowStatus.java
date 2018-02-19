@@ -35,16 +35,13 @@ public class ShowStatus extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-
+         recyclerView=(RecyclerView)findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(ShowStatus.this));
 
         progressDialog = new ProgressDialog(ShowStatus.this);
-
         progressDialog.setMessage("Loading Data from Firebase Database");
-
         progressDialog.show();
 
         databaseReference = FirebaseDatabase.getInstance().getReference(MainActivity.Database_Path);
