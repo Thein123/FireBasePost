@@ -1,6 +1,8 @@
 package com.globaldroid.app.myfirebase;
 
+import android.app.NotificationManager;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -56,12 +58,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
+                StatusData statusData = new StatusData();
 
                 GetDataFromEditText();
-                StatusData statusData = new StatusData(statusString);
 
                 // Adding status text into class function object.
+                statusData.setMystatus(statusString);
+
 
 
                 // Getting the ID from firebase database.
@@ -85,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
 
     }
 
