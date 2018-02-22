@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText statusEditText;
 
-    public static final String Firebase_Server_URL = "https://thein-cloud-android.firebaseio.com/";
+    public static final String Firebase_Server_URL = "your_firebase_server_url";
 
 
     String statusString;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
 
     // Root Database Name for Firebase Database.
-    public static final String Database_Path = "thein-cloud-android";
+    public static final String Database_Path = "your_database_path";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
